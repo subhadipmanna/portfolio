@@ -46,7 +46,7 @@ const ChatBot = () => {
     "How can I collaborate with Amit?",
   ]);
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001/api/chat";
+  const API_URL = import.meta.env.VITE_API_URL || "https://vercel.com/subhadip-mannas-projects/chatbot-backend-d8u4/7EzxiLeE2tRp49U7m9CoKJTFkusx/api/chat";
 
   const toggleChat = () => setIsOpen(!isOpen);
 
