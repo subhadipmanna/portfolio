@@ -20,7 +20,7 @@ const ProjectView = () => {
   useEffect(() => {
     const getProject = async () => {
       await axios
-        .get(`https://vercel.com/subhadip-mannas-projects/amit-cackend/4ubu35QcykAmYXMe4pYXnY3vwp76/api/v1/projrct/get/${id}`, {
+        .get(`amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/projrct/get/${id}`, {
           withCredentials: true,
         })
         .then((res) => {

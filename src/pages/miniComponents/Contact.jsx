@@ -17,7 +17,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://vercel.com/subhadip-mannas-projects/amit-cackend/4ubu35QcykAmYXMe4pYXnY3vwp76/api/v1/message/send",
+        "amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/message/send",
         { senderName, subject, message },
         {
           withCredentials: true,
