@@ -10,7 +10,7 @@ const Timeline = () => {
     const getMyProfile = async () => {
       try {
         const { data } = await axios.get(
-          "https://amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/user/me/portfolio",
+          "https://amit-cackend.vercel.app/api/v1/user/me/portfolio",
           { withCredentials: true }
         );
         setUser(data.user);
@@ -26,7 +26,7 @@ const Timeline = () => {
     const getMyTimeline = async () => {
       try {
         const { data } = await axios.get(
-          "https://amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/timeline/getall",
+          "https://amit-cackend.vercel.app/api/v1/timeline/getall",
           { withCredentials: true }
         );
         setTimeline(data.timelines);

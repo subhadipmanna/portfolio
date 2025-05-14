@@ -23,7 +23,7 @@ const Hero = () => {
     const getMyProfile = async () => {
       try {
         const { data } = await axios.get(
-          "https://amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/user/me/portfolio",
+          "https://amit-cackend.vercel.app/api/v1/user/me/portfolio",
           { withCredentials: true }
         );
         setUser(data.user);
