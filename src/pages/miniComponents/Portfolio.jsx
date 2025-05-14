@@ -11,7 +11,7 @@ const Portfolio = () => {
     const getMyProjects = async () => {
       try {
         const { data } = await axios.get(
-          "amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/projrct/getall",
+          "https://amit-cackend-7at3838oe-subhadip-mannas-projects.vercel.app/api/v1/projrct/getall",
           { withCredentials: true }
         );
         setProjects(data.projects);
